@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.center,
               children:   <Widget>[  
-                 CircleAvatar(
+                 const CircleAvatar(
                   radius: 50.0,
                   backgroundImage: NetworkImage("https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), 
                    
@@ -46,8 +46,8 @@ class MyApp extends StatelessWidget {
                 ),
                 Container(
                  color: Colors.white,
-                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                 padding: EdgeInsets.all(10.0),
+                 margin: const  EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                 padding: const EdgeInsets.all(10.0),
                   child: Row(
                    
                     children: <Widget>[
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                         Icons.phone,
                         color: Colors.teal.shade900,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10.0,
                       ),
                       const Text(
@@ -70,15 +70,15 @@ class MyApp extends StatelessWidget {
                 ),
                 Container(
                  color: Colors.white,
-                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                 padding: EdgeInsets.all(10.0),
+                 margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                 padding: const EdgeInsets.all(10.0),
                   child: Row(
                     children: <Widget>[
                       Icon(
                         Icons.email,
                         color: Colors.teal.shade900,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10.0,
                       ),
                       const Text(
